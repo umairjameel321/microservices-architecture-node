@@ -1,0 +1,21 @@
+{
+  "name": "microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:products": "cd products && npm install",
+    "install:users": "cd users && npm install",
+    "install:all": "npm run install:products && npm run install:users",
+    "start:products": "cd products && npm run start",
+    "start:users": "cd users && npm run start",
+    "start:all": "npm-run-all --parallel start:products start:users"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "npm-run-all": "^4.1.5"
+  }
+}

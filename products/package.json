@@ -1,0 +1,20 @@
+{
+  "name": "ecom-gpt-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --trace-deprecation index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "moleculer": "^0.14.33",
+    "moleculer-db": "^0.8.25",
+    "moleculer-db-adapter-mongoose": "^0.9.4",
+    "mongoose": "^5.13.8"
+  }
+}
